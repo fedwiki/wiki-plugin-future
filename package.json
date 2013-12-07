@@ -1,5 +1,5 @@
 {
-	"name":	"wiki-plugin-calendar",
+	"name":	"wiki-plugin-future",
 	"version":	"0.1.0",
 	"description": "Federated Wiki - Future Plug-in",
 	"keywords":	[
