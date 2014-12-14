@@ -7,9 +7,9 @@
       "text": "The Future plugin stands-in for a page about to be created. When one links to a non-existant page a temporary (ghost) page is created containing the Future plugin. The Future plugin creates new pages much like the Factory plugin creates new story items."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "c326bec2dae8b7fb",
-      "text": "<h3> Templates"
+      "text": "<h3>Templates</h3>"
     },
     {
       "type": "image",
@@ -34,9 +34,9 @@
       "text": "Factory plugins can be configured with a \"prompt\" field in their json representation. Such prompts make a template serve the purpose of typical forms. Downstream form processing can look for items of a specific id to know that they contain answers to specific prompts."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "d2e226525f19aa34",
-      "text": "<h3> Twins"
+      "text": "<h3>Twins</h3>"
     },
     {
       "type": "paragraph",
@@ -372,6 +372,57 @@
         "text": "When a twin has been located, one can review the page and possibly fork it to avoid this choice in the future."
       },
       "date": 1361759895634
+    },
+    {
+      "type": "edit",
+      "id": "c326bec2dae8b7fb",
+      "item": {
+        "type": "html",
+        "id": "c326bec2dae8b7fb",
+        "text": "<h3> Templates"
+      },
+      "date": 1418314911124
+    },
+    {
+      "type": "edit",
+      "id": "c326bec2dae8b7fb",
+      "item": {
+        "type": "html",
+        "id": "c326bec2dae8b7fb",
+        "text": "<h3>Templates</h3>"
+      },
+      "date": 1418314927946
+    },
+    {
+      "type": "edit",
+      "id": "d2e226525f19aa34",
+      "item": {
+        "type": "html",
+        "id": "d2e226525f19aa34",
+        "text": "<h3> Twins"
+      },
+      "date": 1418314965835
+    },
+    {
+      "type": "edit",
+      "id": "d2e226525f19aa34",
+      "item": {
+        "type": "html",
+        "id": "d2e226525f19aa34",
+        "text": "<h3> Twins"
+      },
+      "date": 1418314965837
+    },
+    {
+      "type": "edit",
+      "id": "d2e226525f19aa34",
+      "item": {
+        "type": "html",
+        "id": "d2e226525f19aa34",
+        "text": "<h3>Twins</h3>"
+      },
+      "date": 1418314973985
     }
-  ]
+  ],
+  "plugin": "future"
 }
