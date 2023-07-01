@@ -4,7 +4,7 @@
     {
       "type": "paragraph",
       "id": "ad3122275cbc9872",
-      "text": "The Future plugin stands-in for a page about to be created. When one links to a non-existant page a temporary (ghost) page is created containing the Future plugin. The Future plugin creates new pages much like the Factory plugin creates new story items."
+      "text": "The Future plugin stands-in for a page about to be created. When one links to a page that can't be found, a temporary (ghost) page is created containing the Future plugin. The Future plugin creates new pages much like the Factory plugin creates new story items."
     },
     {
       "type": "html",
@@ -36,22 +36,22 @@
     {
       "type": "html",
       "id": "d2e226525f19aa34",
-      "text": "<h3>Twins</h3>"
+      "text": "<h3>Pointers</h3>"
     },
     {
       "type": "paragraph",
       "id": "0ab791256d89344f",
-      "text": "A Twin (or sister) page is one on another site that shares the same name (slug) as a desired page."
+      "text": "If the any of the expected places for the page are unreachable. The future plugin will offer direct links to those places that might help find a missing page."
     },
     {
       "type": "paragraph",
       "id": "950156721167fe73",
-      "text": "A link will look in a few specific places for a page. If it isn't located where expected the Future plugin may find other locations by examining the current neighborhood sitemaps for a page by the same name."
+      "text": "If a page with the same name can be found in the current neighborhood, a link is provided."
     },
     {
       "type": "paragraph",
       "id": "d796c694d80bf2d7",
-      "text": "When a twin has been located, one can review the page and possibly fork it to avoid this choice in the future."
+      "text": "See [[At The Edge]] for more details. If a twin is located, one can review the page and possibly fork it to avoid this choice in the future."
     }
   ],
   "journal": [
@@ -422,7 +422,56 @@
         "text": "<h3>Twins</h3>"
       },
       "date": 1418314973985
+    },
+    {
+      "type": "edit",
+      "id": "ad3122275cbc9872",
+      "item": {
+        "type": "paragraph",
+        "id": "ad3122275cbc9872",
+        "text": "The Future plugin stands-in for a page about to be created. When one links to a page that can't be found, a temporary (ghost) page is created containing the Future plugin. The Future plugin creates new pages much like the Factory plugin creates new story items."
+      },
+      "date": 1687945061143
+    },
+    {
+      "type": "edit",
+      "id": "d2e226525f19aa34",
+      "item": {
+        "type": "html",
+        "id": "d2e226525f19aa34",
+        "text": "<h3>Pointers</h3>"
+      },
+      "date": 1687945505012
+    },
+    {
+      "type": "edit",
+      "id": "0ab791256d89344f",
+      "item": {
+        "type": "paragraph",
+        "id": "0ab791256d89344f",
+        "text": "If the any of the expected places for the page are unreachable. The future plugin will offer direct links to those places that might help find a missing page."
+      },
+      "date": 1687945814097
+    },
+    {
+      "type": "edit",
+      "id": "950156721167fe73",
+      "item": {
+        "type": "paragraph",
+        "id": "950156721167fe73",
+        "text": "If a page with the same name can be found in the current neighborhood, a link is provided."
+      },
+      "date": 1687946012010
+    },
+    {
+      "type": "edit",
+      "id": "d796c694d80bf2d7",
+      "item": {
+        "type": "paragraph",
+        "id": "d796c694d80bf2d7",
+        "text": "See [[At The Edge]] for more details. If a twin is located, one can review the page and possibly fork it to avoid this choice in the future."
+      },
+      "date": 1687946086777
     }
-  ],
-  "plugin": "future"
+  ]
 }
