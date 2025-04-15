@@ -13,22 +13,14 @@
     "url": "http://ward.fed.wiki.org"
   },
   "contributors": [
-    {
-      "name": "Nick Niemeir",
-      "email": "nick.niemeir@gmail.com",
-      "url": "http://nrn.io"
-    },
-    {
-      "name": "Paul Rodwell",
-      "email": "paul.rodwell@btinternet.com",
-      "url": "http://wiki-paul90.rhcloud.com"
-    }
+    "Ward Cunningham <ward@c2.com>",
+    "Paul Rodwell <paul.rodwell@btinternet.com>"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"info: nothing to test here\" && exit 0",
+    "update-authors": "node scripts/update-authors.cjs"
   },
   "devDependencies": {
-    "grunt": "^1.0.4",
     "grunt-git-authors": "~3"
   },
   "license": "MIT",
@@ -39,7 +31,8 @@
   "bugs": {
     "url": "https://github.com/fedwiki/wiki-plugin-future/issues"
   },
+  "type": "module",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=0.20"
   }
 }
